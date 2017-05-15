@@ -1,0 +1,111 @@
+<nav class="container-fluid nav navbar-nav" id="visa-menu" >
+  <ul id="menubar1"
+      role="menubar"
+      aria-label="Visa Menu 1">
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         href="#"
+         tabindex="-1"><img src ="http://vansgn.com/brandvale/wp-content/uploads/2014/02/Visa-logo-2014-white.png" alt="visa logo" width="60px" height="60px"/>
+      </a>
+    </li>
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         aria-controls="payWithVisa"
+         href="#"
+         tabindex="0"
+         (click)="onClickPayWithVisa()"
+      >
+        Pay With Visa
+      </a>
+      <div *ngIf="payWithVisaClicked">
+          <li>Visa Checkout</li>
+          <li>Find a card</li>
+      </div>
+      <ul role="menu"
+          aria-label="payVisa"
+          tabindex="-1">
+        <li role="none">
+          <a role="menuitem"
+             href="mb-about.html#overview"
+             tabindex="-1">
+            Overview
+          </a>
+        </li>
+        <li role="none">
+          <a role="menuitem"
+             href="mb-about.html#admin"
+             tabindex="-1">
+            Administration
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         href="#"
+         tabindex="0">
+        Partner With Us
+      </a>
+      <ul role="menu"
+          aria-label="partner"
+          tabindex="-1">
+        <li role="none">
+          <a role="menuitem"
+             href="mb-admissions.html#apply"
+             tabindex="-1">
+            Apply
+          </a>
+        </li>
+        <li role="none">
+          <a role="menuitem"
+             href="mb-admissions.html#signup"
+             tabindex="-1">
+            Sign Up
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         href="#"
+         tabindex="-1">
+        Run Your Business
+      </a>
+    </li>
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         href="#"
+         tabindex="-1">
+        Travel With Visa
+      </a>
+    </li>
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         href="#"
+         tabindex="-1">
+        Visa Everywhere
+      </a>
+    </li>
+    <li role="none">
+      <a role="menuitem"
+         aria-haspopup="true"
+         aria-expanded="false"
+         href="#"
+         tabindex="-1">
+        <span class="glyphicon glyphicon-search"></span>
+      </a>
+    </li>
+  </ul>
+</nav>
